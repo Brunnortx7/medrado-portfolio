@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barbearia Modelo • Landing Page</title>
+  <meta name="description" content="Um visual alinhado, atendimento premium e experiência completa." />
+  <meta name="theme-color" content="#0b0f14" />
+  <link rel="preload" as="image" href="imagens/image copy.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar" id="topo">
+    <div class="container topbar-inner">
+      <a class="brand" href="#topo" aria-label="BARBEARIA - início">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">BARBEARIA</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+          <span class="menu-lines" aria-hidden="true"></span>
+        </button>
+
+        <ul class="menu" id="menu">
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li class="menu-cta"><a class="btn btn-sm" href="#contato">Agendar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero-bg" role="img" aria-label="Barbearia - ambiente"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <p class="kicker">CAMAÇARI • BAHIA</p>
+        <h1>Barbearia moderna para o seu estilo</h1>
+        <p class="subtitle">Um visual alinhado, atendimento premium e experiência completa.</p>
+
+        <div class="hero-actions">
+          <a class="btn" id="btnAgende" href="#" rel="noopener">Agende pelo WhatsApp</a>
+          <a class="btn btn-ghost" href="#precos">Ver preços</a>
+        </div>
+
+        <div class="hero-badges" aria-label="Destaques">
+          <div class="badge">✂️ Cortes modernos</div>
+          <div class="badge">🧔 Barba na régua</div>
+          <div class="badge">⭐ Atendimento premium</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-head">
+          <h2>Serviços</h2>
+          <p>Escolha o que combina com seu estilo.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <div class="card-ico" aria-hidden="true">✂️</div>
+            <h3>Corte de cabelo</h3>
+            <p>Do clássico ao degradê — finalização e alinhamento.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-ico" aria-hidden="true">🧔</div>
+            <h3>Barba</h3>
+            <p>Barba desenhada, navalha, hidratação e acabamento.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-ico" aria-hidden="true">💈</div>
+            <h3>Combo</h3>
+            <p>Cabelo + barba.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-ico" aria-hidden="true">🧑‍🦲</div>
+            <h3>Prótese capilar</h3>
+            <p>Aplicação e manutenção com naturalidade.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-ico" aria-hidden="true">❄️</div>
+            <h3>Nevou</h3>
+            <p>Descoloração com técnica.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-ico" aria-hidden="true">🧼</div>
+            <h3>Acabamento</h3>
+            <p>Pezinho, sobrancelha.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="precos">
+      <div class="container">
+        <div class="section-head">
+          <h2>Preços</h2>
+          <p>Valores transparentes. Para confirmar agenda e promoções, fale no WhatsApp.</p>
+        </div>
+
+        <div class="grid prices">
+          <div class="price">
+            <div class="price-top">
+              <h3>Corte</h3>
+              <div class="price-tag">R$ 40</div>
+            </div>
+            <ul>
+              <li>Degradê / social / navalhado</li>
+              <li>Lavagem</li>
+              <li>Finalização</li>
+            </ul>
+            <a class="btn btn-sm" href="#" data-wa="1">Agendar</a>
+          </div>
+
+          <div class="price featured">
+            <div class="price-top">
+              <h3>Combo</h3>
+              <div class="price-tag">R$ 70</div>
+            </div>
+            <ul>
+              <li>Corte + barba</li>
+              <li>Toalha quente</li>
+              <li>Acabamento detalhado</li>
+            </ul>
+            <a class="btn btn-sm" href="#" data-wa="1">Agendar</a>
+          </div>
+
+          <div class="price">
+            <div class="price-top">
+              <h3>Barba</h3>
+              <div class="price-tag">R$ 35</div>
+            </div>
+            <ul>
+              <li>Navalha / máquina</li>
+              <li>Hidratação</li>
+              <li>Finalização</li>
+            </ul>
+            <a class="btn btn-sm" href="#" data-wa="1">Agendar</a>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong>Obs.:</strong> Projeto demonstrativo (valores fictícios).
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="split">
+          <div class="split-text">
+            <h2>Sobre a barbearia</h2>
+            <p>Uma landing page demonstrativa, pensada para apresentar serviços, preços, galeria e contato de forma clara — perfeita para sua barbearia.</p>
+
+            <div class="highlights">
+              <div class="highlight">
+                <span class="h-num">+7</span>
+                <span class="h-label">anos de experiência</span>
+              </div>
+              <div class="highlight">
+                <span class="h-num">5.0</span>
+                <span class="h-label">avaliação média</span>
+              </div>
+              <div class="highlight">
+                <span class="h-num">1200+</span>
+                <span class="h-label">clientes atendidos</span>
+              </div>
+            </div>
+
+            <div class="split-actions">
+              <a class="btn" href="#" data-wa="1">Quero agendar</a>
+              <a class="btn btn-ghost" href="#galeria">Ver fotos</a>
+            </div>
+          </div>
+
+          <div class="split-media" aria-hidden="true">
+            <div class="media-card"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <h2>Galeria</h2>
+          <p>Alguns cliques do ambiente e do nosso estilo.</p>
+        </div>
+
+        <div class="gallery">
+
+  <figure class="g-item g1">
+    <img src="./imagens/image copy 5.png" alt="Ambiente">
+    <span>Ambiente</span>
+  </figure>
+
+  <figure class="g-item g2">
+    <img src="./imagens/image.png" alt="Detalhes">
+    <span>Detalhes</span>
+  </figure>
+
+  <figure class="g-item g3">
+    <img src="./imagens/image copy 3.png" alt="Atendimento">
+    <span>Atendimento</span>
+  </figure>
+
+  <figure class="g-item g4">
+    <img src="./imagens/image copy 2.png" alt="Estilo">
+    <span>Estilo</span>
+  </figure>
+
+</div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contato</h2>
+          <p>Chama no WhatsApp e agenda seu horário.</p>
+        </div>
+
+        <div class="grid contact">
+          <div class="panel">
+            <h3>Endereço</h3>
+            <p>• Camaçari - BA</p>
+
+            <h3>Horários</h3>
+            <ul class="list">
+              <li><span>Seg a Sab</span><span>09:00 – 20:00</span></li><li><span>Domingo</span><span>09:00 – 14:00</span></li>
+            </ul>
+
+            <div class="contact-actions">
+              <a class="btn" href="#" data-wa="1">Agendar agora</a>
+              <a class="btn btn-ghost" href="https://www.google.com/maps" target="_blank" rel="noopener">Abrir no mapa</a>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Redes</h3>
+            <p>Instagram: <a href="https://instagram.com/" target="_blank" rel="noopener">@barbeariamodelo</a></p>
+            <p>WhatsApp: <a href="#" data-wa="1">+55 (41) 98453-4917</a></p>
+
+            <div class="divider"></div>
+
+            <h3>Mensagem rápida</h3>
+            <form class="mini-form" id="miniForm">
+              <label>
+                Seu nome
+                <input type="text" name="nome" placeholder="Ex.: Brunno" required />
+              </label>
+
+              <label>
+                Serviço
+                <select name="servico" required>
+                  <option value="" selected disabled>Selecione...</option>
+                  <option>Corte</option>
+                  <option>Barba</option>
+                  <option>Combo</option>
+                  <option>Prótese capilar</option>
+                  <option>Nevou</option>
+                </select>
+              </label>
+
+              <label>
+                Data/horário (opcional)
+                <input type="text" name="data" placeholder="Ex.: Sábado 15h" />
+              </label>
+
+              <button class="btn btn-sm" type="submit">Enviar no WhatsApp</button>
+              <p class="form-hint">Você será redirecionado para o WhatsApp com a mensagem pronta.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="wpp-float" href="#" data-wa="1" aria-label="Falar no WhatsApp">💬</a>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Projeto demonstrativo • desenvolvido por Brunno</p>
+      <a class="top" href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    window.__WA = {
+      phone: "5541984534917",
+      msg: "Olá! Quero agendar um horário. Pode me passar os horários disponíveis?"
+    };
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
